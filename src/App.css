@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+  background-color: blue
+}
+
+.graphic
+{
+  margin : 1em;
+}
+
+.box, .firstBox {
+  font-size: 1.3em;
+  outline: 0.01em solid silver;
+  cursor: default;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  height: 4em;
+  width: 45em;
+
+
+}
+.box:hover /* Apparence au survol des liens */
+{
+  box-shadow: 3px 3px 3px grey;
+
+}
+
+.quizz
+{
+  margin: 1em;
+}
+
+
+.entryBox
+{
+  font-size: 6em;
+  display: inline-block;
+  margin: 0.4em;
+}
+
+
+.lien1
+{
+  height: 6em;
+  width: 10em;
+}
+
+.graphic
+{
+  height: 30em;
+  width: 60em;
+  margin: 2em;
+}
+
+.firstdata
+{
+
+}
+
+
+
+
+.picture
+{
+  width: 6em;
+  margin: 0.5em;
+  display: inline-block;
+  margin-top: 0em;
+}
+
+.pictureTop
+{
+  width: 10em;
+  margin: 0.5em;
+}
+
+.text
+{
+  margin-bottom: 2em;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+
+.buttons
+{
+  margin-left: 4em;
+}
+
+
+.picture
+{
+  vertical-align: middle;
+}
+
+.name, .nameTop
+{
+  width: 10em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.continent, .continentTop
+{
+  width: 5em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.continentTop, .weightTop
+{
+
+}
+
+.pictureTop, .picture
+{
+  display: inline-block;
+  width: 6em;
+  height: 4em;
+  vertical-align: top;
+}
+
+.weight, .weightTop
+{
+  width: 3em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.height, .heightTop
+{
+  width: 3em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.horns, .hornsTop
+{
+  width: 5em;
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
